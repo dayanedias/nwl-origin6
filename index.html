@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OriginSix</title>
   </head>
+
+  <!-- SWIPER -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+  />
+
   <!-- STYLES -->
   <link rel="stylesheet" href="style.css" />
 
@@ -37,6 +44,7 @@
       </nav>
     </header>
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -58,6 +66,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -95,6 +104,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -139,8 +149,142 @@
           </div>
         </div>
       </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Eu sou cliente do Beautysalon há 5 anos e não troco por
+                    nada! Certamente meu cabelo mudou muito depois que comecei a
+                    tratar somente com produtos naturais e veganos. São
+                    profissionais incríveis e qualificados.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/63.jpg"
+                      alt="Avatar de Wanessa Souza"
+                    />
+                    <div class="nome">Wanessa Souza</div>
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis eveniet laboriosam, sint, recusandae adipisci
+                    praesentium deserunt ea pariatur iusto repellat dolores amet
+                    tenetur. Voluptatum optio cumque accusantium fugiat
+                    veritatis et.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/26.jpg"
+                      alt="Avatar de Ana Carolina"
+                    />
+                    <div class="nome">Ana Carolina</div>
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quis eveniet laboriosam, sint, recusandae adipisci
+                    praesentium deserunt ea pariatur iusto repellat dolores amet
+                    tenetur. Voluptatum optio cumque accusantium fugiat
+                    veritatis et.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/27.jpg"
+                      alt="Avatar de Maria Bethânia"
+                    />
+                    <div class="nome">Maria Bethânia</div>
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511999872545&text=Oi, gostaria de agendar um horário!"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 99987-2545</li>
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
     </main>
 
+    <!-- FOOTER -->
+    <footer class="section container grid">
+      <div class="brand">
+        <a class="logo logo-alt" href="#home">beauty<span>salon</span>.</a>
+        <p>©2021 Beautysalon.</p>
+        <p>Todos os direitos reservados.</p>
+      </div>
+      <div class="social">
+        <a href="https://instagram.com" target="_blank"
+          ><i class="icon-instagram"></i
+        ></a>
+        <a href="https://facebook.com" target="_blank"
+          ><i class="icon-facebook"></i
+        ></a>
+        <a href="https://youtube.com" target="_blank"
+          ><i class="icon-youtube"></i
+        ></a>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- SWIPER -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- MAIN -->
     <script src="main.js"></script>
   </body>
 </html>
